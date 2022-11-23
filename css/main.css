@@ -1,0 +1,58 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+}
+
+body {
+    position: absolute;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 200px;
+}
+
+.shown-cell {
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding: 50px;
+    /* bottom: 100px; */
+
+}
+
+.loseBtn {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    bottom: 100px;
+    background-color: aqua;
+}
+
+.winBtn {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    bottom: 100px;
+    background-color: red;
+}
+
+.emoji {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    bottom: 100px;
+}
