@@ -6,19 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>MineSweeper</title>
 </head>
 
 <body onload="onInitGame()">
-    <div class="difficulties">
+    <div class="background_image">
 
     </div>
+    <div class="manual">
+        <button onclick="onManually()">manual mode</button>
+    </div>
+    <div class="difficulties">
+        <button class="easy" onclick="createEasyBoard()">ez pz lemon sqzy</button>
+        <button class="medium" onclick="createMediumBoard()">somewhere in between</button>
+        <button class="hard" onclick="createHardBoard()">difficult difficult lemon difficult</button>
+    </div>
+    <h1> </h1>
     <div class="board"></div>
+    <div class="timer"></div>
     <div class="buttons">
         <button onclick="onInitGame()" class="emoji">😅</button>
         `<button onclick="onInitGame()" class="winBtn">😎</button>
         `<button onclick="onInitGame()" class="loseBtn">🤢</button>
     </div>
+    <div class="footer">programmed and designed by Yohai Korem</div>
     <script src="js/utils.js"></script>
     <script src="js/main.js"></script>
 </body>
